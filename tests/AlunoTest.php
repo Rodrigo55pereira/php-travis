@@ -1,8 +1,7 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-
-require_once '../src/Application/Models/Aluno.php';
+use Application\Models\Aluno;
 
 class AlunoTest extends TestCase
 {
