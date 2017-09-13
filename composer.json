@@ -1,0 +1,20 @@
+{
+    "name": "php-travis",
+    "description": "Um simples projeto utilizando phpUnit integrado com o TravisIC",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rodrigo Pereira de Moraes",
+            "email": "rodrigo55pereira@gmail.com"
+        }
+    ],
+    "require": {
+        "php" : ">=7.1.7"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "psr-4": {"Application\\": "src/"}
+    }
+}
