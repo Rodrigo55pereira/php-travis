@@ -30,6 +30,6 @@ class AlunoTest extends TestCase
     {
         $aluno = new Aluno("Joao", "C", 10, 002);
         $aluno->atribuirNota(10, 7, 9);
-        $this->assertEquals(26, $aluno->getNotaGeral());
+        $this->assertEquals(25, $aluno->getNotaGeral());
     }
 }
