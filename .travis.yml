@@ -6,4 +6,4 @@ before_install:
   - composer self-update
 
 script:
-  - phpunit  --bootstrap vendor/autoload.php tests --colors
+  - phpunit  --configuration phpunit.xml --coverage-text --colors
