@@ -8,7 +8,7 @@ class AlunoTest extends TestCase
     public function testType()
     {
         $aluno = new Aluno("Danilo", "B", 20, 001);
-        $this->assertInternalType('int', $aluno->getMatricula());
+        $this->assertInternalType('string', $aluno->getMatricula());
     }
 
     public function testNumeroMatricula()
