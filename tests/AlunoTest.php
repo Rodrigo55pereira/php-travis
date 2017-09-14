@@ -27,6 +27,6 @@ class AlunoTest extends TestCase
     {
         $aluno = new Aluno("Julio", "C", 10, 005);
         $aluno->atribuirNota(10, 7, 9);
-        $this->assertEquals(5, $aluno->getNotaGeral());
+        $this->assertEquals(26, $aluno->getNotaGeral());
     }
 }
